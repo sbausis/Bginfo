@@ -12,8 +12,8 @@ Global
 		SingleImage|Default = SingleImage|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B33C4F28-ADD2-4179-AC7E-2D45F6043557}.CD_ROM|Default.ActiveCfg = SingleImage
-		{B33C4F28-ADD2-4179-AC7E-2D45F6043557}.CD_ROM|Default.Build.0 = SingleImage
+		{B33C4F28-ADD2-4179-AC7E-2D45F6043557}.CD_ROM|Default.ActiveCfg = CD_ROM
+		{B33C4F28-ADD2-4179-AC7E-2D45F6043557}.CD_ROM|Default.Build.0 = CD_ROM
 		{B33C4F28-ADD2-4179-AC7E-2D45F6043557}.DVD-5|Default.ActiveCfg = DVD-5
 		{B33C4F28-ADD2-4179-AC7E-2D45F6043557}.DVD-5|Default.Build.0 = DVD-5
 		{B33C4F28-ADD2-4179-AC7E-2D45F6043557}.SingleImage|Default.ActiveCfg = SingleImage
