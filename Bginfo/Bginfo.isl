@@ -265,7 +265,7 @@
 		<row><td>NewBinary19</td><td/><td>&lt;ISProductFolder&gt;\redist\Language independent\i386\SerialNumCAHelper.dll</td></row>
 		<row><td>NewBinary2</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\New.ibd</td></row>
 		<row><td>NewBinary20</td><td/><td>C:\Windows\System32\cmd.exe</td></row>
-		<row><td>NewBinary21</td><td/><td>C:\Program Files (x86)\Winternals\BGInfo\scripts\unschedule_bginfo.vbs</td></row>
+		<row><td>NewBinary22</td><td/><td>C:\Windows\System32\schtasks.exe</td></row>
 		<row><td>NewBinary3</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\Up.ibd</td></row>
 		<row><td>NewBinary4</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\WarningIcon.ibd</td></row>
 		<row><td>NewBinary5</td><td/><td>&lt;ISProductFolder&gt;\Support\Themes\InstallShield Blue Theme\welcome.jpg</td></row>
@@ -558,7 +558,7 @@
 		<row><td>LicenseAgreement</td><td>DlgLine</td><td>Line</td><td>48</td><td>234</td><td>326</td><td>0</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>DlgTitle</td><td>Text</td><td>13</td><td>6</td><td>292</td><td>25</td><td>65539</td><td/><td>##IDS__IsLicenseDlg_LicenseAgreement##</td><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>PushButton</td><td>301</td><td>188</td><td>65</td><td>17</td><td>3</td><td/><td>##IDS_PRINT_BUTTON##</td><td>Agree</td><td/><td>0</td><td/><td/><td/></row>
-		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>C:\Program Files\Winternals\BGInfo\Eula.rtf</td><td/></row>
+		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Eula.rtf</td><td/></row>
 		<row><td>LicenseAgreement</td><td>Next</td><td>PushButton</td><td>230</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_NEXT##</td><td>Cancel</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Back</td><td>PushButton</td><td>164</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_BACK##</td><td>Next</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Banner</td><td>Bitmap</td><td>0</td><td>0</td><td>374</td><td>44</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td>NewBinary1</td></row>
@@ -1090,7 +1090,7 @@
 		<row><td>ShowMsiLog</td><td>226</td><td>SystemFolder</td><td>[SystemFolder]notepad.exe "[MsiLogFileLocation]"</td><td/><td>Shows Property-driven MSI Log</td></row>
 		<row><td>setAllUsersProfile2K</td><td>51</td><td>ALLUSERSPROFILE</td><td>[%ALLUSERSPROFILE]</td><td/><td/></row>
 		<row><td>setUserProfileNT</td><td>51</td><td>USERPROFILE</td><td>[%USERPROFILE]</td><td/><td/></row>
-		<row><td>unschedule_bginfo</td><td>1030</td><td>NewBinary21</td><td/><td/><td/></row>
+		<row><td>unschedule_bginfo</td><td>1026</td><td>NewBinary22</td><td>/delete /tn BGInfo_Refresh /F</td><td/><td/></row>
 	</table>
 
 	<table name="Dialog">
@@ -1924,7 +1924,6 @@
 		<row><td>script.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>script.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\extensions\script.txt</td><td>1</td><td/></row>
 		<row><td>server_template.bgi</td><td>ISX_DEFAULTCOMPONENT4</td><td>SERVER~1.BGI|server_template.bgi</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\templates\server_template.bgi</td><td>1</td><td/></row>
 		<row><td>unschedule_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT3</td><td>UNSCHE~1.BAT|unschedule_bginfo.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\scripts\unschedule_bginfo.bat</td><td>1</td><td/></row>
-		<row><td>unschedule_bginfo.vbs</td><td>ISX_DEFAULTCOMPONENT3</td><td>UNSCHE~1.VBS|unschedule_bginfo.vbs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\scripts\unschedule_bginfo.vbs</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -3773,6 +3772,11 @@
 		<row><td>ID_STRING2</td><td>1033</td><td>BluescreenIT</td><td>0</td><td/><td>-1717280397</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>BGInfo</td><td>0</td><td/><td>-1717252400</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>BGINFO~1|BGInfo - Update Desktop</td><td>0</td><td/><td>-1717256528</td></row>
+		<row><td>ID_STRING5</td><td>1033</td><td>BGInfo</td><td>0</td><td/><td>-1717258733</td></row>
+		<row><td>ID_STRING6</td><td>1033</td><td>BGINFO~1|BGInfo - Schedule Task</td><td>0</td><td/><td>-1717293517</td></row>
+		<row><td>ID_STRING7</td><td>1033</td><td>BGINFO~1|BGInfo - Unschedule Task</td><td>0</td><td/><td>-1717248461</td></row>
+		<row><td>ID_STRING8</td><td>1033</td><td>BGINFO~1|BGInfo - Update Desktop</td><td>0</td><td/><td>-1717289389</td></row>
+		<row><td>ID_STRING9</td><td>1033</td><td>BGINFO~1|BGInfo - Update Desktop</td><td>0</td><td/><td>-1717258637</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-1851489248</td></row>
 	</table>
 
@@ -3888,7 +3892,10 @@
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
 		<row><td>Bginfo.exe_14646ABEB6BA4B8DBA4C5AFE15999E3A.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\Bginfo\BGInfo\Bginfo.exe</td><td>0</td></row>
+		<row><td>NewShortcut1_9E554226509249EA95DB34A2C2C1F3F9.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>NewShortcut2_3E69CBD8E5BE4668B4FA38D1D2DA6D92.exe</td><td/><td>C:\Program Files\Winternals\BGInfo\Bginfo.exe</td><td>0</td></row>
+		<row><td>NewShortcut41_80555605D999450F932038A0D021C13B.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
+		<row><td>NewShortcut4_4F9018ABDD944F6BB1199A1EE7604209.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>UNINST_Uninstall_B_869A7434232447F6B45BADA52FA3B053.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2015LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 		<row><td>run_bginfo.bat_04AFB9639DCA496D960D04CA31399C6B.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>run_bginfo.bat_5B2AC2CA96B343B1A4EF3DA0874EF780.exe</td><td/><td>C:\Program Files\Winternals\BGInfo\Bginfo.exe</td><td>2</td></row>
@@ -4002,7 +4009,7 @@
 		<row><td>WriteRegistryValues</td><td/><td>5000</td><td>WriteRegistryValues</td><td/></row>
 		<row><td>setAllUsersProfile2K</td><td>VersionNT &gt;= 500</td><td>980</td><td/><td/></row>
 		<row><td>setUserProfileNT</td><td>VersionNT</td><td>960</td><td/><td/></row>
-		<row><td>unschedule_bginfo</td><td>REMOVE="ALL"</td><td>6405</td><td/><td/></row>
+		<row><td>unschedule_bginfo</td><td>REMOVE="ALL"</td><td>6402</td><td/><td/></row>
 	</table>
 
 	<table name="InstallShield">
@@ -4482,6 +4489,10 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
+		<row><td>NewShortcut1</td><td>Bginfo.exe</td><td/><td>bginfo</td><td>2</td></row>
+		<row><td>NewShortcut2</td><td>ISX_DEFAULTCOMPONENT3</td><td/><td>bginfo</td><td>2</td></row>
+		<row><td>NewShortcut3</td><td>ISX_DEFAULTCOMPONENT3</td><td/><td>bginfo</td><td>2</td></row>
+		<row><td>NewShortcut4</td><td>Bginfo.exe</td><td/><td>bginfo</td><td>2</td></row>
 		<row><td>UNINST_Uninstall_Bginfo</td><td>IS_ININSTALL_SHORTCUT</td><td/><td>bginfo</td><td>2</td></row>
 	</table>
 
@@ -4568,6 +4579,11 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>NewShortcut1</td><td>bginfo</td><td>##ID_STRING5##</td><td>Bginfo.exe</td><td>[INSTALLDIR]Bginfo.exe</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi"</td><td/><td/><td>NewShortcut1_9E554226509249EA95DB34A2C2C1F3F9.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut2</td><td>bginfo</td><td>##ID_STRING6##</td><td>ISX_DEFAULTCOMPONENT3</td><td>[INSTALLDIR]scripts\schedule_bginfo.bat</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut3</td><td>bginfo</td><td>##ID_STRING7##</td><td>ISX_DEFAULTCOMPONENT3</td><td>[INSTALLDIR]scripts\unschedule_bginfo.bat</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut4</td><td>bginfo</td><td>##ID_STRING8##</td><td>Bginfo.exe</td><td>[INSTALLDIR]Bginfo.exe</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi" /timer:0 /nolicprompt /silent</td><td/><td/><td>NewShortcut4_4F9018ABDD944F6BB1199A1EE7604209.exe</td><td>1</td><td>7</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut41</td><td>StartupFolder</td><td>##ID_STRING9##</td><td>Bginfo.exe</td><td>[INSTALLDIR]Bginfo.exe</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi" /timer:0 /nolicprompt /silent</td><td/><td/><td>NewShortcut41_80555605D999450F932038A0D021C13B.exe</td><td>1</td><td>7</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>UNINST_Uninstall_Bginfo</td><td>bginfo</td><td>UNINST|Uninstall Bginfo</td><td>IS_ININSTALL_SHORTCUT</td><td>[SystemFolder]msiexec.exe</td><td>/x {74B2473A-C45B-43D2-98CB-4D46FE03B516}</td><td/><td/><td>UNINST_Uninstall_B_869A7434232447F6B45BADA52FA3B053.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 

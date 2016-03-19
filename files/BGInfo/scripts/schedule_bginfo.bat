@@ -6,9 +6,6 @@ SET REFRESH_INTERVAL=1
 
 ECHO Add BGInfo Scheduler Task.
 
-ECHO Provide a Template
-copy /y "%BGINFO_PATH%\templates\server_template.bgi" "%BGINFO_PATH%\templates\current_template.bgi"
-
 ECHO Delete the task if a task with the same name already exists
 schtasks.exe /delete /tn %TASK_NAME% /F
 
