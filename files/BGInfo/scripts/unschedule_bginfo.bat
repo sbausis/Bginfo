@@ -1,4 +1,4 @@
-::@echo off
+@echo off
 
 SET TASK_NAME=BGInfo_Refresh
 
