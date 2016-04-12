@@ -1940,6 +1940,7 @@
 		<col key="yes" def="s72">Tag</col>
 		<col def="S255">Data</col>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>AlwaysInstall</td></row>
+		<row><td>RegistryPageEnabled</td><td>Yes</td></row>
 		<row><td>schedule_bginfo.bat</td><td/></row>
 	</table>
 
@@ -3776,7 +3777,6 @@
 		<row><td>ID_STRING6</td><td>1033</td><td>BGINFO~1|BGInfo - Schedule Task</td><td>0</td><td/><td>-1717293517</td></row>
 		<row><td>ID_STRING7</td><td>1033</td><td>BGINFO~1|BGInfo - Unschedule Task</td><td>0</td><td/><td>-1717248461</td></row>
 		<row><td>ID_STRING8</td><td>1033</td><td>BGINFO~1|BGInfo - Update Desktop</td><td>0</td><td/><td>-1717289389</td></row>
-		<row><td>ID_STRING9</td><td>1033</td><td>BGINFO~1|BGInfo - Update Desktop</td><td>0</td><td/><td>-1717258637</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-1851489248</td></row>
 	</table>
 
@@ -3894,7 +3894,6 @@
 		<row><td>Bginfo.exe_14646ABEB6BA4B8DBA4C5AFE15999E3A.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\Bginfo\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>NewShortcut1_9E554226509249EA95DB34A2C2C1F3F9.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>NewShortcut2_3E69CBD8E5BE4668B4FA38D1D2DA6D92.exe</td><td/><td>C:\Program Files\Winternals\BGInfo\Bginfo.exe</td><td>0</td></row>
-		<row><td>NewShortcut41_80555605D999450F932038A0D021C13B.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>NewShortcut4_4F9018ABDD944F6BB1199A1EE7604209.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>UNINST_Uninstall_B_869A7434232447F6B45BADA52FA3B053.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2015LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 		<row><td>run_bginfo.bat_04AFB9639DCA496D960D04CA31399C6B.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
@@ -4481,6 +4480,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S0">Value</col>
 		<col def="s72">Component_</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>_C1583AAE73A09FA77021CA52EF6DA414</td><td>2</td><td>SOFTWARE\Microsoft\Windows\CurrentVersion\Run</td><td>BGInfo</td><td>"C:\Program Files (x86)\Winternals\BGInfo\Bginfo.exe" "C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi" /timer:0 /nolicprompt /silent</td><td>ISX_DEFAULTCOMPONENT1</td><td/></row>
 	</table>
 
 	<table name="RemoveFile">
@@ -4583,7 +4583,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>NewShortcut2</td><td>bginfo</td><td>##ID_STRING6##</td><td>ISX_DEFAULTCOMPONENT3</td><td>[INSTALLDIR]scripts\schedule_bginfo.bat</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>NewShortcut3</td><td>bginfo</td><td>##ID_STRING7##</td><td>ISX_DEFAULTCOMPONENT3</td><td>[INSTALLDIR]scripts\unschedule_bginfo.bat</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>NewShortcut4</td><td>bginfo</td><td>##ID_STRING8##</td><td>Bginfo.exe</td><td>[INSTALLDIR]Bginfo.exe</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi" /timer:0 /nolicprompt /silent</td><td/><td/><td>NewShortcut4_4F9018ABDD944F6BB1199A1EE7604209.exe</td><td>1</td><td>7</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>NewShortcut41</td><td>StartupFolder</td><td>##ID_STRING9##</td><td>Bginfo.exe</td><td>[INSTALLDIR]Bginfo.exe</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi" /timer:0 /nolicprompt /silent</td><td/><td/><td>NewShortcut41_80555605D999450F932038A0D021C13B.exe</td><td>1</td><td>7</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>UNINST_Uninstall_Bginfo</td><td>bginfo</td><td>UNINST|Uninstall Bginfo</td><td>IS_ININSTALL_SHORTCUT</td><td>[SystemFolder]msiexec.exe</td><td>/x {74B2473A-C45B-43D2-98CB-4D46FE03B516}</td><td/><td/><td>UNINST_Uninstall_B_869A7434232447F6B45BADA52FA3B053.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 

@@ -8,4 +8,4 @@ REM Delete the task if a task with the same name already exists
 schtasks.exe /delete /tn %TASK_NAME% /F
 
 ECHO Done.
-pause
+REM pause

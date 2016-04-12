@@ -17,4 +17,4 @@ ECHO Running the task for first time...
 START /WAIT schtasks.exe /run /tn %TASK_NAME%
 
 ECHO Done.
-pause
+REM pause
