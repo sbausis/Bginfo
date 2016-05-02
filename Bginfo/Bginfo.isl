@@ -341,12 +341,13 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>Bginfo.exe</td><td>{7D45D834-8791-424B-810E-C4933FDFC492}</td><td>INSTALLDIR</td><td>2</td><td/><td>bginfo.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Bginfo.exe</td><td>{78BF3358-716E-4882-98BC-81CA4043B387}</td><td>BGINFO</td><td>2</td><td/><td>bginfo.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{BE2DBCB1-3BB8-4360-A3F7-011F19557511}</td><td>DATABASEDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{6D836351-156D-4617-B715-0D0AEC223D89}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{00E948A5-C2E2-4FB6-AE96-23568933AA7E}</td><td>EXTENSIONS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{2011A262-6DC8-41CE-A4B9-81A8399A53A8}</td><td>SCRIPTS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{B4496FDB-A6D2-49DB-A25C-B0101D54C115}</td><td>TEMPLATES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{E1350A74-823A-429F-8210-E4E66535BA2E}</td><td>BGINFO</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{C4B88A19-A406-4402-8E88-C7691E8E5C25}</td><td>EXTENSIONS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{C32CE5C0-2FE0-4DB6-92C7-187446CEAD0E}</td><td>SCRIPTS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{7D44BF30-DBF1-475B-8EDA-6C9E74D31B07}</td><td>TEMPLATES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>IS_ININSTALL_SHORTCUT</td><td>{384DFD2B-9512-402C-BF45-49150D768800}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
@@ -944,8 +945,8 @@
 		<row><td>InstallChangeFolder</td><td>Up</td><td>DirectoryListUp</td><td>0</td><td>1</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Back</td><td>NewDialog</td><td>SplashBitmap</td><td>Display_IsBitmapDlg</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
-		<row><td>InstallWelcome</td><td>Next</td><td>EndDialog</td><td>Return</td><td>OutOfDiskSpace &lt;&gt; 1</td><td>3</td></row>
-		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>ReadyToInstall</td><td>1</td><td>8</td></row>
+		<row><td>InstallWelcome</td><td>Next</td><td>EndDialog</td><td>Return</td><td>OutOfDiskSpace &lt;&gt; 1</td><td>1</td></row>
+		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>ReadyToInstall</td><td>0</td><td>9</td></row>
 		<row><td>LicenseAgreement</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>NOT Installed</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>DoAction</td><td>ISPrint</td><td>1</td><td>0</td></row>
@@ -1058,17 +1059,20 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>BGINFO</td><td>Bginfo.exe</td></row>
+		<row><td>BGINFO</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>DATABASEDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
-		<row><td>EXTENSIONS</td><td>ISX_DEFAULTCOMPONENT2</td></row>
+		<row><td>EXTENSIONS</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>INSTALLDIR</td><td>Bginfo.exe</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT5</td></row>
 		<row><td>INSTALLDIR</td><td>IS_ININSTALL_SHORTCUT</td></row>
-		<row><td>SCRIPTS</td><td>ISX_DEFAULTCOMPONENT3</td></row>
-		<row><td>TEMPLATES</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>SCRIPTS</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>TEMPLATES</td><td>ISX_DEFAULTCOMPONENT5</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1151,6 +1155,7 @@
 		<row><td>ALLUSERSPROFILE</td><td>TARGETDIR</td><td>.:ALLUSE~1|All Users</td><td/><td>0</td><td/></row>
 		<row><td>AdminToolsFolder</td><td>TARGETDIR</td><td>.:Admint~1|AdminTools</td><td/><td>0</td><td/></row>
 		<row><td>AppDataFolder</td><td>TARGETDIR</td><td>.:APPLIC~1|Application Data</td><td/><td>0</td><td/></row>
+		<row><td>BGINFO</td><td>INSTALLDIR</td><td>BGInfo</td><td/><td>0</td><td/></row>
 		<row><td>CommonAppDataFolder</td><td>TARGETDIR</td><td>.:Common~1|CommonAppData</td><td/><td>0</td><td/></row>
 		<row><td>CommonFiles64Folder</td><td>TARGETDIR</td><td>.:Common64</td><td/><td>0</td><td/></row>
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
@@ -1158,7 +1163,7 @@
 		<row><td>DIRPROPERTY1</td><td>TARGETDIR</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>DIRPROPERTY2</td><td>TARGETDIR</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>DesktopFolder</td><td>TARGETDIR</td><td>.:Desktop</td><td/><td>3</td><td/></row>
-		<row><td>EXTENSIONS</td><td>INSTALLDIR</td><td>EXTENS~1|extensions</td><td/><td>0</td><td/></row>
+		<row><td>EXTENSIONS</td><td>BGINFO</td><td>EXTENS~1|extensions</td><td/><td>0</td><td/></row>
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
@@ -1169,7 +1174,7 @@
 		<row><td>ISYourDataBaseDir</td><td>INSTALLDIR</td><td>Database</td><td/><td>0</td><td/></row>
 		<row><td>LocalAppDataFolder</td><td>TARGETDIR</td><td>.:LocalA~1|LocalAppData</td><td/><td>0</td><td/></row>
 		<row><td>MSIEXEC.EXE</td><td>SYSWOW64</td><td>MSIEXE~1|msiexec.exe</td><td/><td>0</td><td/></row>
-		<row><td>MY_PRODUCT_NAME</td><td>WINTERNALS</td><td>BGInfo</td><td/><td>0</td><td/></row>
+		<row><td>MY_PRODUCT_NAME</td><td>ProgramFilesFolder</td><td>WINTER~1|Winternals</td><td/><td>0</td><td/></row>
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
 		<row><td>NEW_DIRECTORY1</td><td>TARGETDIR</td><td>NEW_DIRECTORY1</td><td/><td>0</td><td/></row>
 		<row><td>NEW_DIRECTORY2</td><td>TARGETDIR</td><td>NEW_DIRECTORY2</td><td/><td>0</td><td/></row>
@@ -1181,7 +1186,7 @@
 		<row><td>ProgramFilesFolder</td><td>TARGETDIR</td><td>.:PROGRA~1|program files</td><td/><td>0</td><td/></row>
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
-		<row><td>SCRIPTS</td><td>INSTALLDIR</td><td>scripts</td><td/><td>0</td><td/></row>
+		<row><td>SCRIPTS</td><td>BGINFO</td><td>scripts</td><td/><td>0</td><td/></row>
 		<row><td>SYSWOW64</td><td>WINDOWS</td><td>SysWOW64</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
@@ -1190,7 +1195,7 @@
 		<row><td>System64Folder</td><td>TARGETDIR</td><td>.:System64</td><td/><td>0</td><td/></row>
 		<row><td>SystemFolder</td><td>TARGETDIR</td><td>.:System32</td><td/><td>0</td><td/></row>
 		<row><td>TARGETDIR</td><td/><td>SourceDir</td><td/><td>0</td><td/></row>
-		<row><td>TEMPLATES</td><td>INSTALLDIR</td><td>TEMPLA~1|templates</td><td/><td>0</td><td/></row>
+		<row><td>TEMPLATES</td><td>BGINFO</td><td>TEMPLA~1|templates</td><td/><td>0</td><td/></row>
 		<row><td>TempFolder</td><td>TARGETDIR</td><td>.:Temp</td><td/><td>0</td><td/></row>
 		<row><td>TemplateFolder</td><td>TARGETDIR</td><td>.:ShellNew</td><td/><td>0</td><td/></row>
 		<row><td>USERPROFILE</td><td>TARGETDIR</td><td>.:USERPR~1|UserProfile</td><td/><td>0</td><td/></row>
@@ -1897,6 +1902,7 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT5</td></row>
 		<row><td>AlwaysInstall</td><td>IS_ININSTALL_SHORTCUT</td></row>
 	</table>
 
@@ -1912,18 +1918,18 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>bginfo.exe</td><td>Bginfo.exe</td><td>Bginfo.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>1</td><td/></row>
-		<row><td>bginfo_refresh.xml</td><td>ISX_DEFAULTCOMPONENT3</td><td>BGINFO~1.XML|BGInfo_Refresh.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\scripts\BGInfo_Refresh.xml</td><td>1</td><td/></row>
-		<row><td>eula.rtf</td><td>ISX_DEFAULTCOMPONENT1</td><td>Eula.rtf</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Eula.rtf</td><td>1</td><td/></row>
-		<row><td>eula.txt</td><td>ISX_DEFAULTCOMPONENT1</td><td>Eula.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Eula.txt</td><td>1</td><td/></row>
-		<row><td>freememory.vbs</td><td>ISX_DEFAULTCOMPONENT2</td><td>FREEME~1.VBS|FreeMemory.vbs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\extensions\FreeMemory.vbs</td><td>1</td><td/></row>
-		<row><td>publicip.vbs</td><td>ISX_DEFAULTCOMPONENT2</td><td>PublicIP.vbs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\extensions\PublicIP.vbs</td><td>1</td><td/></row>
-		<row><td>readme.txt</td><td>ISX_DEFAULTCOMPONENT1</td><td>ReadMe.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\ReadMe.txt</td><td>1</td><td/></row>
-		<row><td>run_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT3</td><td>RUN_BG~1.BAT|run_bginfo.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\scripts\run_bginfo.bat</td><td>1</td><td/></row>
-		<row><td>schedule_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT3</td><td>SCHEDU~1.BAT|schedule_bginfo.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\scripts\schedule_bginfo.bat</td><td>1</td><td/></row>
-		<row><td>script.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>script.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\extensions\script.txt</td><td>1</td><td/></row>
-		<row><td>server_template.bgi</td><td>ISX_DEFAULTCOMPONENT4</td><td>SERVER~1.BGI|server_template.bgi</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\templates\server_template.bgi</td><td>1</td><td/></row>
-		<row><td>unschedule_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT3</td><td>UNSCHE~1.BAT|unschedule_bginfo.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\scripts\unschedule_bginfo.bat</td><td>1</td><td/></row>
+		<row><td>bginfo.exe</td><td>Bginfo.exe</td><td>Bginfo.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>1</td><td/></row>
+		<row><td>bginfo_refresh.xml</td><td>ISX_DEFAULTCOMPONENT4</td><td>BGINFO~1.XML|BGInfo_Refresh.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\scripts\BGInfo_Refresh.xml</td><td>1</td><td/></row>
+		<row><td>eula.rtf</td><td>ISX_DEFAULTCOMPONENT2</td><td>Eula.rtf</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\Eula.rtf</td><td>1</td><td/></row>
+		<row><td>eula.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>Eula.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\Eula.txt</td><td>1</td><td/></row>
+		<row><td>freememory.vbs</td><td>ISX_DEFAULTCOMPONENT3</td><td>FREEME~1.VBS|FreeMemory.vbs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\extensions\FreeMemory.vbs</td><td>1</td><td/></row>
+		<row><td>publicip.vbs</td><td>ISX_DEFAULTCOMPONENT3</td><td>PublicIP.vbs</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\extensions\PublicIP.vbs</td><td>1</td><td/></row>
+		<row><td>readme.txt</td><td>ISX_DEFAULTCOMPONENT2</td><td>ReadMe.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\ReadMe.txt</td><td>1</td><td/></row>
+		<row><td>run_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT4</td><td>RUN_BG~1.BAT|run_bginfo.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\scripts\run_bginfo.bat</td><td>1</td><td/></row>
+		<row><td>schedule_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT4</td><td>SCHEDU~1.BAT|schedule_bginfo.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\scripts\schedule_bginfo.bat</td><td>1</td><td/></row>
+		<row><td>script.txt</td><td>ISX_DEFAULTCOMPONENT3</td><td>script.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\extensions\script.txt</td><td>1</td><td/></row>
+		<row><td>server_template.bgi</td><td>ISX_DEFAULTCOMPONENT5</td><td>SERVER~1.BGI|server_template.bgi</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\templates\server_template.bgi</td><td>1</td><td/></row>
+		<row><td>unschedule_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT4</td><td>UNSCHE~1.BAT|unschedule_bginfo.bat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Projects\Bginfo\files\BGInfo\scripts\unschedule_bginfo.bat</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2068,12 +2074,13 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>Bginfo.exe</td><td/><td/><td>_0E84B01B_E463_4E5E_B049_24363726BBF7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Bginfo.exe</td><td/><td/><td>_0DE57F66_21AC_46A4_B595_398A291BF5EF_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_AB3A6654_34D1_4766_8AC5_76E259777B41_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_768B9543_9BCB_4AA4_AC31_C7931120D677_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_00F5A37B_56F3_4C2E_8A3C_D1DB5F6DA88A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_E8AE2F40_F4F4_49B7_BA48_AA2E33E66F5A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_58A34FCE_337B_485E_B01E_F4C3F060CF17_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_A87E966F_6497_433E_A21F_A6C6FF7CA9D3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_ABD18054_6EDF_4AE2_91F8_C2996708A2DC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_557FF3CF_6E12_4AB3_8C10_4B127C51A785_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_53D57166_21C4_4782_9ED1_7BFB49B4CC94_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>IS_ININSTALL_SHORTCUT</td><td/><td/><td>_0BF7383F_3ED5_48F0_BBA3_069C6729E6FA_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
@@ -3475,12 +3482,15 @@
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>-1851489248</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>-1851489248</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>LAUNCH~1.EXE|Launch Bginfo.exe</td><td>0</td><td/><td>-1851480320</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME10</td><td>1033</td><td>BGInfo - Unschedule Task</td><td>0</td><td/><td>312773397</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>LAUNCH~1.EXE|Launch Bginfo.exe</td><td>0</td><td/><td>-1851514879</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>Update BGInfo</td><td>0</td><td/><td>-1717260433</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>Schedule BGInfo</td><td>0</td><td/><td>-1717278704</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>1033</td><td>BGINFO~1|BGInfo - Update Desktop</td><td>0</td><td/><td>-1717262672</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>1033</td><td>BGINFO~1|BGInfo - Unschedule</td><td>0</td><td/><td>-1717277264</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME7</td><td>1033</td><td>BGINFO~1|BGInfo - Schedule</td><td>0</td><td/><td>-1717289552</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME8</td><td>1033</td><td>BGINFO~1|BGInfo - Update Desktop</td><td>0</td><td/><td>312793941</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME9</td><td>1033</td><td>BGInfo - Schedule Task</td><td>0</td><td/><td>312750869</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>-1851489248</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>-1851489248</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>-1851489248</td></row>
@@ -3777,6 +3787,7 @@
 		<row><td>ID_STRING6</td><td>1033</td><td>BGINFO~1|BGInfo - Schedule Task</td><td>0</td><td/><td>-1717293517</td></row>
 		<row><td>ID_STRING7</td><td>1033</td><td>BGINFO~1|BGInfo - Unschedule Task</td><td>0</td><td/><td>-1717248461</td></row>
 		<row><td>ID_STRING8</td><td>1033</td><td>BGINFO~1|BGInfo - Update Desktop</td><td>0</td><td/><td>-1717289389</td></row>
+		<row><td>ID_STRING9</td><td>1033</td><td>BGInfo</td><td>0</td><td/><td>312798069</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-1851489248</td></row>
 	</table>
 
@@ -3892,16 +3903,20 @@
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
 		<row><td>Bginfo.exe_14646ABEB6BA4B8DBA4C5AFE15999E3A.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\Bginfo\BGInfo\Bginfo.exe</td><td>0</td></row>
+		<row><td>Bginfo.exe_2CCE6E8B2C414CC9A233A887C7423D82.exe</td><td/><td>C:\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
+		<row><td>NewShortcut1_1558A722C7714017A15894D498ABACAE.exe</td><td/><td>C:\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>NewShortcut1_9E554226509249EA95DB34A2C2C1F3F9.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>NewShortcut2_3E69CBD8E5BE4668B4FA38D1D2DA6D92.exe</td><td/><td>C:\Program Files\Winternals\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>NewShortcut4_4F9018ABDD944F6BB1199A1EE7604209.exe</td><td/><td>C:\Users\Simon\Documents\Visual Studio 2015\Projects\Bginfo\files\BGInfo\Bginfo.exe</td><td>0</td></row>
 		<row><td>UNINST_Uninstall_B_869A7434232447F6B45BADA52FA3B053.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2015LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 		<row><td>run_bginfo.bat_04AFB9639DCA496D960D04CA31399C6B.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>run_bginfo.bat_5B2AC2CA96B343B1A4EF3DA0874EF780.exe</td><td/><td>C:\Program Files\Winternals\BGInfo\Bginfo.exe</td><td>2</td></row>
+		<row><td>schedule_bginfo.ba_30EABA8E3E7B43F49D78407E613F99C1.exe</td><td/><td>&lt;VSSolutionFolder&gt;\files\BGInfo\Bginfo.exe</td><td>2</td></row>
 		<row><td>schedule_bginfo.ba_748F77A41EF744E1A3F502FAD6FE6814.exe</td><td/><td>C:\Program Files\Winternals\BGInfo\Bginfo.exe</td><td>2</td></row>
 		<row><td>schedule_bginfo.ba_AA52A03B25EF423C9AE2C2C3C419AC2A.exe</td><td/><td>C:\Program Files\Winternals\BGInfo\Bginfo.exe</td><td>2</td></row>
 		<row><td>schedule_bginfo.ba_DDBACEB130D94AD8B2C7EC85A421CEC4.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>unschedule_bginfo._136815BC1AD64009B660EFCBCDFE8305.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>unschedule_bginfo._28CD8009C9A2426A94B6CF68D15ED4A3.exe</td><td/><td>&lt;VSSolutionFolder&gt;\files\BGInfo\Bginfo.exe</td><td>2</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4008,7 +4023,7 @@
 		<row><td>WriteRegistryValues</td><td/><td>5000</td><td>WriteRegistryValues</td><td/></row>
 		<row><td>setAllUsersProfile2K</td><td>VersionNT &gt;= 500</td><td>980</td><td/><td/></row>
 		<row><td>setUserProfileNT</td><td>VersionNT</td><td>960</td><td/><td/></row>
-		<row><td>unschedule_bginfo</td><td>REMOVE="ALL"</td><td>6402</td><td/><td/></row>
+		<row><td>unschedule_bginfo</td><td>REMOVE="ALL"</td><td>6405</td><td/><td/></row>
 	</table>
 
 	<table name="InstallShield">
@@ -4076,7 +4091,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>SetupCompleteSuccess</td><td/><td>-1</td><td>SetupCompleteSuccess</td><td/></row>
 		<row><td>SetupInitialization</td><td/><td>420</td><td>SetupInitialization</td><td/></row>
 		<row><td>SetupInterrupted</td><td/><td>-2</td><td>SetupInterrupted</td><td/></row>
-		<row><td>SetupProgress</td><td>Not UITEST</td><td>1265</td><td/><td/></row>
 		<row><td>SetupResume</td><td>Installed And (RESUME Or Preselected) And Not PATCH</td><td>1220</td><td>SetupResume</td><td/></row>
 		<row><td>ValidateProductID</td><td/><td>700</td><td>ValidateProductID</td><td/></row>
 		<row><td>setAllUsersProfile2K</td><td>VersionNT &gt;= 500</td><td>980</td><td/><td/></row>
@@ -4489,11 +4503,13 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
+		<row><td>Bginfo.exe</td><td>Bginfo.exe</td><td/><td>bginfo</td><td>2</td></row>
+		<row><td>FileKey1</td><td>Bginfo.exe</td><td/><td>bluesc_1_bluescreenit1</td><td>2</td></row>
+		<row><td>FileKey2</td><td>Bginfo.exe</td><td/><td>bginfo1</td><td>2</td></row>
 		<row><td>NewShortcut1</td><td>Bginfo.exe</td><td/><td>bginfo</td><td>2</td></row>
-		<row><td>NewShortcut2</td><td>ISX_DEFAULTCOMPONENT3</td><td/><td>bginfo</td><td>2</td></row>
-		<row><td>NewShortcut3</td><td>ISX_DEFAULTCOMPONENT3</td><td/><td>bginfo</td><td>2</td></row>
-		<row><td>NewShortcut4</td><td>Bginfo.exe</td><td/><td>bginfo</td><td>2</td></row>
 		<row><td>UNINST_Uninstall_Bginfo</td><td>IS_ININSTALL_SHORTCUT</td><td/><td>bginfo</td><td>2</td></row>
+		<row><td>schedule_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT4</td><td/><td>bginfo</td><td>2</td></row>
+		<row><td>unschedule_bginfo.bat</td><td>ISX_DEFAULTCOMPONENT4</td><td/><td>bginfo</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4579,11 +4595,11 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>NewShortcut1</td><td>bginfo</td><td>##ID_STRING5##</td><td>Bginfo.exe</td><td>[INSTALLDIR]Bginfo.exe</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi"</td><td/><td/><td>NewShortcut1_9E554226509249EA95DB34A2C2C1F3F9.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>NewShortcut2</td><td>bginfo</td><td>##ID_STRING6##</td><td>ISX_DEFAULTCOMPONENT3</td><td>[INSTALLDIR]scripts\schedule_bginfo.bat</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>NewShortcut3</td><td>bginfo</td><td>##ID_STRING7##</td><td>ISX_DEFAULTCOMPONENT3</td><td>[INSTALLDIR]scripts\unschedule_bginfo.bat</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>NewShortcut4</td><td>bginfo</td><td>##ID_STRING8##</td><td>Bginfo.exe</td><td>[INSTALLDIR]Bginfo.exe</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi" /timer:0 /nolicprompt /silent</td><td/><td/><td>NewShortcut4_4F9018ABDD944F6BB1199A1EE7604209.exe</td><td>1</td><td>7</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>Bginfo.exe</td><td>bginfo</td><td>##IDS_SHORTCUT_DISPLAY_NAME8##</td><td>Bginfo.exe</td><td>AlwaysInstall</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi" /timer:0 /nolicprompt /silent</td><td/><td/><td>Bginfo.exe_2CCE6E8B2C414CC9A233A887C7423D82.exe</td><td>1</td><td>7</td><td>BGINFO</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut1</td><td>bginfo</td><td>##ID_STRING9##</td><td>Bginfo.exe</td><td>[INSTALLDIR]BGInfo\Bginfo.exe</td><td>"C:\Program Files (x86)\Winternals\BGInfo\templates\server_template.bgi"</td><td/><td/><td>NewShortcut1_1558A722C7714017A15894D498ABACAE.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>UNINST_Uninstall_Bginfo</td><td>bginfo</td><td>UNINST|Uninstall Bginfo</td><td>IS_ININSTALL_SHORTCUT</td><td>[SystemFolder]msiexec.exe</td><td>/x {74B2473A-C45B-43D2-98CB-4D46FE03B516}</td><td/><td/><td>UNINST_Uninstall_B_869A7434232447F6B45BADA52FA3B053.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>schedule_bginfo.bat</td><td>bginfo</td><td>##IDS_SHORTCUT_DISPLAY_NAME9##</td><td>ISX_DEFAULTCOMPONENT4</td><td>[INSTALLDIR]BGInfo\scripts\schedule_bginfo.bat</td><td/><td/><td/><td>schedule_bginfo.ba_30EABA8E3E7B43F49D78407E613F99C1.exe</td><td>1</td><td>1</td><td>SCRIPTS</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>unschedule_bginfo.bat</td><td>bginfo</td><td>##IDS_SHORTCUT_DISPLAY_NAME10##</td><td>ISX_DEFAULTCOMPONENT4</td><td>[INSTALLDIR]BGInfo\scripts\unschedule_bginfo.bat</td><td/><td/><td/><td>unschedule_bginfo._28CD8009C9A2426A94B6CF68D15ED4A3.exe</td><td>1</td><td>1</td><td>SCRIPTS</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
